@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>Hello, World!</title>
+</head>
+<body>
+  <h1>
+    Hello, World!
+  </h1>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Seni Seviyorum Yağmurum</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background-color: black;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    #bugs {
+      position: absolute;
+      width: 60%;
+      max-width: 600px;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+      opacity: 0.8;
+    }
+
+    .tarih {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      color: white;
+      font-size: 16px;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 4px 10px;
+      border-radius: 10px;
+      z-index: 10;
+    }
+
+    .yazi {
+      position: absolute;
+      white-space: nowrap;
+      font-size: 40px;
+      font-weight: bold;
+      animation: kay 10s linear infinite;
+      top: 70%;
+      left: 100%;
+      transform: translateY(-50%);
+      background: linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      z-index: 10;
+    }
+
+    @keyframes kay {
+      0% { left: 100%; }
+      100% { left: -100%; }
+    }
+
+    .kalp {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      background-color: red;
+      transform: rotate(45deg);
+      animation: dus 5s linear infinite;
+      opacity: 0.8;
+      z-index: 5;
+    }
+
+    .kalp::before,
+    .kalp::after {
+      content: '';
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      background-color: red;
+      border-radius: 50%;
+    }
+
+    .kalp::before {
+      top: -15px;
+      left: 0;
+    }
+
+    .kalp::after {
+      left: -15px;
+      top: 0;
+    }
+
+    @keyframes dus {
+      0% { top: -40px; opacity: 1; }
+      100% { top: 100vh; opacity: 0; }
+    }
+
+    #canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      pointer-events: none;
+    }
+
+    .romantik-mesaj {
+      position: absolute;
+      bottom: 20px;
+      left
+      <!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Seni Seviyorum Yağmurum</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background-color: black;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    /* Bugs Bunny */
+    #bugs {
+      position: absolute;
+      width: 60%;
+      max-width: 600px;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+      opacity: 0.8;
+    }
+
+    /* Tarih */
+    .tarih {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      color: white;
+      font-size: 16px;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 4px 10px;
+      border-radius: 10px;
+      z-index: 10;
+    }
+
+    /* Yazı */
+    .yazi {
+      position: absolute;
+      white-space: nowrap;
+      font-size: 40px;
+      font-weight: bold;
+      animation: kay 10s linear infinite;
+      top: 70%;
+      left: 100%;
+      transform: translateY(-50%);
+      background: linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      z-index: 10;
+    }
+
+    @keyframes kay {
+      0% { left: 100%; }
+      100% { left: -100%; }
+    }
+
+    /* Kalp */
+    .kalp {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      background-color: red;
+      transform: rotate(45deg);
+      animation: dus 5s linear infinite;
+      opacity: 0.8;
+      z-index: 5;
+    }
+
+    .kalp::before,
+    .kalp::after {
+      content: '';
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      background-color: red;
+      border-radius: 50%;
+    }
+
+    .kalp::before {
+      top: -15px;
+      left: 0;
+    }
+
+    .kalp::after {
+      left: -15px;
+      top: 0;
+    }
+
+    @keyframes dus {
+      0% { top: -40px; opacity: 1; }
+      100% { top: 100vh; opacity: 0; }
+    }
+
+    /* Fireworks canvas */
+    #canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      pointer-events: none;
+    }
+
+    /* Romantik mesaj */
+    .romantik-mesaj {
+      position: fixed;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 10px 20px;
+      border-radius: 20px;
+      z-index: 10;
+      text-align: center;
+      width: 80%;
+      max-width: 500px;
+    }
+  </style>
+</head>
+<body>
+  <div class="tarih">12 Kasım 2024</div>
+  <div class="yazi">Seni seviyorum Yağmurum</div>
+  <img id="bugs" src="https://upload.wikimedia.org/wikipedia/en/1/17/Bugs_Bunny.svg" alt="Bugs Bunny"/>
+
+  <canvas id="canvas"></canvas>
+
+  <!-- Kalpler -->
+  <script>
+    function kalpOlustur() {
+      const kalp = document.createElement('div');
+      kalp.classList.add('kalp');
+      kalp.style.left = Math.random() * 100 + 'vw';
+      kalp.style.animationDuration = (Math.random() * 2 + 4) + 's';
+      document.body.appendChild(kalp);
+
+      setTimeout(() => {
+        kalp.remove();
+      }, 6000);
+    }
+
+    setInterval(kalpOlustur, 300);
+  </script>
+
+  <!-- Fireworks -->
+  <script>
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    let particles = [];
+
+    function random(min, max) {
+      return Math.random() * (max - min) + min;
+    }
+
+    function createFirework() {
+      const x = random(0, canvas.width);
+      const y = random(0, canvas.height / 2);
+      const colors = ['red', 'orange', 'yellow', 'lime', 'cyan', 'blue', 'magenta', 'white'];
+
+      for (let i = 0; i < 50; i++) {
+        particles.push({
+          x: x,
+          y: y,
+          angle: random(0, 2 * Math.PI),
+          speed: random(1, 6),
+          radius: random(1, 3),
+          color: colors[Math.floor(Math.random() * colors.length)],
+          alpha: 1
+        });
+      }
+    }
+
+    function updateParticles() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      particles.forEach((p, index) => {
+        p.x += Math.cos(p.angle) * p.speed;
+        p.y += Math.sin(p.angle) * p.speed;
+        p.alpha -= 0.01;
+        if (p.alpha <= 0) particles.splice(index, 1);
+      });
+
+      particles.forEach(p => {
+        ctx.beginPath();
+        ctx.globalAlpha = p.alpha;
+        ctx.fillStyle = p.color;
+        ctx.arc(p.x, p.y, p.radius, 0, 2 * Math.PI);
+        ctx.fill();
+        ctx.globalAlpha = 1;
+      });
+    }
+
+    function animate() {
+      updateParticles();
+      requestAnimationFrame(animate);
+    }
+
+    setInterval(createFirework, 1500);
+    animate();
+  </script>
+
+  <!-- Romantik mesaj -->
+  <script>
+    const mesajlar = [
+      "Sonsuza kadar seni seveceğim, her anımız özel.",
+      "Seninle her günüm daha güzel, her anım daha anlamlı.",
+      "Gözlerinde kaybolmak, seninle bir ömür geçirmek istiyorum.",
+      "Birlikte geçireceğimiz her anı dört gözle bekliyorum.",
+      "Seninle her şey mümkün, çünkü sen benim her şeyimsin.",
+      "Hayatımın en güzel anı seni tanımak ve seni sevmek.",
+      "Bütün kalbimle seni seviyorum, seninle olmak en güzel şey.",
+      "Birlikte yaşlanmak, hayatı seninle paylaşmak istiyorum.",
+      "Seninle her şeyin anlamı var, seninle her şey daha güzel.",
+      "Her gün seni sevmenin başka bir anlamı var, seninle her şey daha özel."
+    ];
+
+    const tarih = new Date();
+    const gun = tarih.getDate(); // Bugünün tarihi (gün) alındı
+    const mesajIndex = gun % mesajlar.length; // Gün sayısına göre mesaj indexi belirleniyor
+
+    // Alt kısımda mesajı göstermek için HTML elementini oluştur
+    const mesajElement = document.createElement('div');
+    mesajElement.classList.add('romantik-mesaj');
+    mesajElement.textContent = mesajlar[mesajIndex];
+
+    // Mesajı body'ye ekle
+    document.body.appendChild(mesajElement);
+  </script>
+</body>
+</html>
